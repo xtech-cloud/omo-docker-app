@@ -27,7 +27,7 @@ VOLUME /var/log/omo
 
 EXPOSE 80
 
-ADD ams /usr/local/bin/
+ADD app /usr/local/bin/
 RUN chmod +x /usr/local/bin/app
 
 CMD ["app"]
